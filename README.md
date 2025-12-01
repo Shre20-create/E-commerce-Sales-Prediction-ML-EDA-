@@ -58,4 +58,72 @@ This project is beginner-friendly and perfect for ML/Data Science portfolios.
 ---
 
 ## 🗂️ Project Structure
+ecommerce-sales-prediction/
+├── data/ # Raw & processed data
+├── notebooks/ # EDA + model notebook
+├── models/ # Trained ML models
+├── outputs/ # Charts + predictions
+├── src/ # All python modules
+└── app/ # Streamlit UI
 
+---
+
+## 📥 Installation
+
+Clone the repo:
+
+```bash
+git clone https://github.com/<your-username>/ecommerce-sales-prediction.git
+cd ecommerce-sales-prediction
+Install dependencies:
+pip install -r requirements.txt
+Run the Project
+1. Run EDA + Modeling
+python src/train.py
+2. Generate predictions
+python src/predict.py
+3. Launch Streamlit Dashboard
+streamlit run app/streamlit_app.py
+Results
+
+RandomForest + XGBoost trained
+
+MAE & R² scores displayed in terminal
+
+Forecast saved to:
+outputs/next_month_forecast.csv
+Charts saved in outputs/
+
+🤖 Models Saved
+Model	File
+RandomForestRegressor	models/random_forest_model.pkl
+XGBoostRegressor	models/xgboost_model.pkl
+Technologies Used
+
+Python (Pandas, NumPy)
+
+Scikit-Learn
+
+XGBoost
+
+Matplotlib & Seaborn
+
+Streamlit
+
+Joblib
+
+nbformat
+Future Enhancements
+
+GridSearchCV hyperparameter tuning
+
+ARIMA/LSTM Forecasting
+
+SHAP model explainability
+
+Web deployment on Render/Streamlit Cloud
+
+👤 Author
+
+Shreyas (Your Name)
+Data Scientist & AI Engineer
