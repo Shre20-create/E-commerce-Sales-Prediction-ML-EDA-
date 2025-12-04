@@ -31,9 +31,7 @@ E-commerce Sales Prediction —  Project Structure
 │   ├── train.py
 │   ├── predict.py
 │   └── utils.py
-│
-└── app/
-    └── streamlit_app.py
+
 
 # 📈 E-commerce Sales Prediction (ML + EDA)
 
@@ -64,7 +62,7 @@ ecommerce-sales-prediction/
 ├── models/ # Trained ML models
 ├── outputs/ # Charts + predictions
 ├── src/ # All python modules
-└── app/ # Streamlit UI
+
 
 ---
 
@@ -82,9 +80,7 @@ Run the Project
 python src/train.py
 2. Generate predictions
 python src/predict.py
-3. Launch Streamlit Dashboard
-streamlit run app/streamlit_app.py
-Results
+
 
 RandomForest + XGBoost trained
 
@@ -109,9 +105,6 @@ XGBoost
 Matplotlib & Seaborn
 
 Streamlit
-
-Joblib
-
 nbformat
 Future Enhancements
 
@@ -121,7 +114,7 @@ ARIMA/LSTM Forecasting
 
 SHAP model explainability
 
-Web deployment on Render/Streamlit Cloud
+
 
 👤 Author
 
